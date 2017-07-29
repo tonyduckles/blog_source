@@ -4,12 +4,19 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+My name is **Tony Duckles**. I'm a software engineer living in Madison, WI.
+I enjoy photography, traveling, cooking, and tinkering with new gadgets.
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jekyll" %} /
-[minima](https://github.com/jekyll/minima)
+## About this Site
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+This site is written in [HTML5](http://html5.org/), proudly powered by
+[Octopress](http://octopress.org/), and hosted on [Dreamhost](http://dreamhost.com).
+
+## Nynim.org
+
+     ny*nim [nI-nim]
+     --noun
+     1. Random five-letter combination that is pronounceable and easy to type.
+     2. A word willed into existence by Tony Duckles due to the extreme difficulty
+        in finding a short unregistered domain-name in this day and age.
+
