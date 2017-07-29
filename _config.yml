@@ -1,11 +1,18 @@
 # Site settings
 title: Nynim.org
 email: tony@nynim.org
+author: Tony Duckles
 description: >
   Tony Duckles on programming, photography, and general geekery
 baseurl: ""
 url: "http://nynim.org"
 date_format: "%b %-d, %Y"
+header_pages:
+ - about.md
+ - contact.html
+
+# Optional features
+show_social_icons: true
 
 # Google services
 google_analytics: UA-6748678-1
@@ -14,19 +21,48 @@ google_analytics: UA-6748678-1
 disqus_shortname: nynim
 
 # Social icons
-github_username:  tonyduckles
+github_username: tonyduckles
 twitter_username: tonyduckles
+
+# UI Text
+text:
+  pagination:
+    newer: 'Newer'
+    older: 'Older'
+  post:
+    updated:        'Updated'
+    minute_read:    'minute read'
+    related_posts:  'Related Posts'
+  index:
+    coming_soon: 'Coming soon...'
+  contact:
+    email:    'Email Address'
+    content:  'What would you like to say?'
+    subject:  'Contact message from Nynim.org'
+    submit:   'Say Hello'
+    ajax:
+      sending:  'sending..'
+      sent:     'Message sent!'
+      error:    'Error!'
+  thanks: 'Thanks for contacting us. We will reply as soon as possible.'
+  og_locale: 'en_US'
 
 # Octopress 2-style excerpts
 excerpt_separator: "<!-- more -->"
 excerpt_link: "Read more &rarr;"
 
+# Linkblog (external-url)
+linkblog:
+  permalink_label: "&#8734;"
+  linkpost:
+    marker: "&rarr;"
+
 # Build settings
 markdown: kramdown
-theme: minima
 kramdown:
   smart_quotes: ["apos", "apos", "quot", "quot"]  # Disable smart-quotes
 permalink: /blog/:year/:month/:day/:title/  # Octopress 2-style permalink
+paginate: 10
 sass:
   style: compressed
 exclude:
