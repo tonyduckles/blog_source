@@ -8,7 +8,7 @@ GIT
       rubypants
 
 GIT
-  remote: https://github.com/andrewdavidbell/linkblog
+  remote: https://github.com/andrewdavidbell/linkblog.git
   revision: db3287fc3b454046986a7f22112185e9d604795b
   branch: jekyll3
   specs:
@@ -17,11 +17,11 @@ GIT
       titlecase
 
 GIT
-  remote: https://github.com/e9t/ink.git
-  revision: 8953626c2e10a31b16175529bf24ee3849edc99b
-  branch: fix-warning-deprecated
+  remote: https://github.com/iphoting/ink.git
+  revision: a81b195c11824f1539915138a99047df1b5b1282
+  branch: jekyll-3
   specs:
-    octopress-ink (1.1.4)
+    octopress-ink (1.2.1)
       jekyll (>= 2.0)
       octopress (~> 3.0)
       octopress-autoprefixer
@@ -30,6 +30,23 @@ GIT
       octopress-hooks (~> 2.2)
       octopress-include-tag (~> 1.0)
       uglifier (~> 2.5)
+
+GIT
+  remote: https://github.com/mkleucker/codefence.git
+  revision: 1ff084fe35c8c8f68732065407a1a93d70d585af
+  branch: fix-warning-deprecated
+  specs:
+    octopress-codefence (1.7.0)
+      jekyll (~> 3.0)
+      octopress-code-highlighter (~> 4.2)
+
+GIT
+  remote: https://github.com/randycoulman/code-highlighter.git
+  revision: 22d6e0afb9cbbe174640444da9382f9cd7aae474
+  branch: handle-multiline-spans
+  specs:
+    octopress-code-highlighter (4.3.0)
+      jekyll (~> 3.0)
 
 GEM
   remote: https://rubygems.org/
@@ -216,8 +233,6 @@ GEM
     octopress-autoprefixer (2.0.1)
       autoprefixer-rails
       jekyll (~> 3.0)
-    octopress-code-highlighter (4.3.0)
-      jekyll (~> 3.0)
     octopress-codeblock (1.0.5)
       octopress-code-highlighter (~> 4.2)
     octopress-date-format (3.0.3)
@@ -285,7 +300,9 @@ DEPENDENCIES
   jekyll-sitemap
   minima (~> 2.0)
   octopress
+  octopress-code-highlighter!
   octopress-codeblock
+  octopress-codefence!
   octopress-image-tag
   octopress-ink!
   octopress-linkblog!
