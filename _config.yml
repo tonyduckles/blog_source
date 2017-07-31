@@ -27,14 +27,6 @@ theme: minima
 permalink: /blog/:year/:month/:day/:title/  # Octopress 2-style permalink
 sass:
   style: compressed
-gems:
-  - jekyll-sitemap
-  - octopress-codeblock
-  - octopress-image-tag
-  - octopress-linkblog
-  - octopress-paginate
-  - octopress-quote-tag
-  - octopress-solarized
 exclude:
   - Gemfile
   - Gemfile.lock
