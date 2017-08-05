@@ -4,8 +4,8 @@ gem 'jekyll'
 gem "minima", "~> 2.0"
 
 group :jekyll_plugins do
-  gem 'github-pages'  # Bootstrap dependencies to stay in sync with GitHub Pages (gh:github/pages-gem)
   gem 'jekyll-archives'
+  gem 'jekyll-paginate'
   gem 'jekyll-sitemap'
   gem 'octopress'
   gem 'octopress-code-highlighter', git: 'https://github.com/randycoulman/code-highlighter.git', branch: 'handle-multiline-spans'  # Fix for multi-line <span>'s (gh:octopress/code-highlighter #8)
