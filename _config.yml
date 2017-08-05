@@ -24,6 +24,8 @@ excerpt_link: "Read more &rarr;"
 # Build settings
 markdown: kramdown
 theme: minima
+kramdown:
+  smart_quotes: ["apos", "apos", "quot", "quot"]  # Disable smart-quotes
 permalink: /blog/:year/:month/:day/:title/  # Octopress 2-style permalink
 sass:
   style: compressed
