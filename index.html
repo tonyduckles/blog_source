@@ -15,12 +15,14 @@ layout: default
               {{ post.summary }}
             {% else %}
               {{ post.excerpt }}
-              {% if post.excerpt != post.content %}
-                <a href="{{ site.baseurl }}{{ post.url }}">{{ site.excerpt_link }}</a><br />
-              {% endif %}
             {% endif %}
           </span>
-        </div>
+          {% if post.excerpt != post.content %}
+          <div class="post-excerpt-link">
+            <p><a rel="full-article" href="{{ post.url | prepend: site.baseurl }}">{{ site.excerpt_link }}</a></p>
+          </div>
+          {% endif %}
+        </article>
       {% endfor %}
     </div>
 

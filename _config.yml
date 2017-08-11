@@ -49,7 +49,7 @@ text:
 
 # Octopress 2-style excerpts
 excerpt_separator: "<!-- more -->"
-excerpt_link: "Read more &rarr;"
+excerpt_link: "Read on &rarr;"
 
 # Linkblog (external-url)
 linkblog:
