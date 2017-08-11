@@ -1,0 +1,13 @@
+{% assign linklog = false %}
+{% assign index = false %}
+
+{% if page.external-url %}
+  {% capture linklog %}{{ page.external-url }}{% endcapture %}
+{% elsif post.external-url %}
+  {% capture linklog %}{{ post.external-url }}{% endcapture %}
+{% endif %}
+{% if post.url %}{% assign index = true %}{% endif %}
+{% capture permalink %}{% if index %}{{ post.url | prepend: site.baseurl }}{% else %}{{ page.url | prepend: site.baseurl }}{% endif %}{% endcapture %}
+{% capture title_url %}{% if linklog %}{{ linklog }}{% else %}{{ permalink }}{% endif %}{% endcapture %}
+{% capture article_title %}{% if index %}{% unless linklog %}{{ site.standard_post_marker }}{% endunless %}{{ post.title }}{% else %}{% unless linklog %}{{ site.standard_post_marker }}{% endunless %}{{ page.title }}{% endif %}{% endcapture %}
+{% capture content %}{% if index %}{% capture excerpted %}{{ post.content | has_excerpt }}{% endcapture %}{% if excerpted != 'false' %}{{ post.content | excerpt }}{% else %}{{ post.content }}{% endif %}{% else %}{{ content }}{% endif %}{% endcapture %}

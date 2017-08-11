@@ -14,10 +14,22 @@
   padding-bottom: 0;
 }
 
-.post-link .post-title {
+.posts .post-title {
   margin-top: 0;
-  font-weight: 600;
-  color: #333;
+
+  .linklog-marker {
+    color: #aaa;
+    font-size: .8em;
+    line-height: 1em;
+    position: relative;
+    top: -.15em;
+  }
+
+  .post-link {
+    font-weight: 600;
+    color: #333;
+    background-image: none;
+  }
 }
 
 .posts article .post-excerpt-link {
