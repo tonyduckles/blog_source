@@ -1,0 +1,32 @@
+---
+layout: null
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title><![CDATA[{{ site.title }}]]></title>
+  <link href="{{ site.url }}/atom.xml" rel="self"/>
+  <link href="{{ site.url }}/"/>
+  <updated>{{ site.time | date_to_xmlschema }}</updated>
+  <id>{{ site.url }}/</id>
+  <author>
+    <name><![CDATA[{{ site.author | strip_html }}]]></name>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  {% for post in site.posts limit: 20 %}
+    <entry>
+    {% assign linklog = false %}
+    {% if post.external-url %}{% capture linklog %}{{ post.external-url }}{% endcapture %}{% endif %}
+    {% capture permalink %}{{ post.url | prepend: site.baseurl | expand_urls: site.url }}{% endcapture %}
+    {% capture title_url %}{% if linklog %}{{ linklog }}{% else %}{{ permalink }}{% endif %}{% endcapture %}
+    {% capture title %}{{ post.title }}{% if linklog %} {{ site.linkblog.linkpost.marker }}{% endif %}{% endcapture %}
+    {% capture content %}{{ post.content | expand_urls: site.url }}{% if linklog and site.linkblog.permalink_label_feed %}<p><a rel="bookmark" href="{{ permalink }}">{{ site.linkblog.permalink_label_feed }}</a></p>{% endif %}{% endcapture %}
+    <title type="html"><![CDATA[{{ title | cdata_escape }}]]></title>
+    <link href="{{ title_url }}"/>
+    <updated>{{ post.date | date_to_xmlschema }}</updated>
+    <id>{{ site.url }}{{ post.id }}</id>
+    {% for category in post.categories %}<category term="{{ category }}" />{% endfor %}
+      <content type="html"><![CDATA[{{ content | cdata_escape }}]]></content>
+    </entry>
+  {% endfor %}
+</feed>

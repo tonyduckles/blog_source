@@ -54,6 +54,7 @@ excerpt_link: "Read on &rarr;"
 # Linkblog (external-url)
 linkblog:
   permalink_label: "&#8734;"
+  permalink_label_feed: "&#9875; Permalink"
   linkpost:
     marker: "&rarr;"
 
