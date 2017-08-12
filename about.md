@@ -10,7 +10,8 @@ I enjoy photography, traveling, cooking, and tinkering with new gadgets.
 ## About this Site
 
 This site is written in [HTML5](http://html5.org/), proudly powered by
-[Octopress](http://octopress.org/), and hosted on [Dreamhost](http://dreamhost.com).
+[Jekyll](https://jekyllrb.com/) and [Octopress 3](https://github.com/octopress/octopress),
+and hosted on [DigitalOcean](https://www.digitalocean.com/).
 
 ## Nynim.org
 
