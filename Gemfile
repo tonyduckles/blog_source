@@ -5,6 +5,7 @@ gem 'jekyll'
 group :jekyll_plugins do
   gem 'jekyll-archives'
   gem 'jekyll-paginate'
+  gem 'jekyll-redirect-from'
   gem 'jekyll-sitemap'
   gem 'octopress'
   gem 'octopress-code-highlighter', git: 'https://github.com/randycoulman/code-highlighter.git', branch: 'handle-multiline-spans'  # Fix for multi-line <span>'s (gh:octopress/code-highlighter #8)

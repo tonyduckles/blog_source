@@ -73,6 +73,8 @@ GEM
     jekyll-archives (2.1.1)
       jekyll (>= 2.4)
     jekyll-paginate (1.1.0)
+    jekyll-redirect-from (0.12.1)
+      jekyll (~> 3.3)
     jekyll-sass-converter (1.5.0)
       sass (~> 3.4)
     jekyll-sitemap (1.1.1)
@@ -151,6 +153,7 @@ DEPENDENCIES
   jekyll
   jekyll-archives
   jekyll-paginate
+  jekyll-redirect-from
   jekyll-sitemap
   octopress
   octopress-code-highlighter!

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Redirecting...</title>
+
+    <meta name="robots" content="noindex">
+    <meta http-equiv="refresh" content="0; url={{ page.redirect.to }}">
+    <link rel="canonical" href="{{ page.redirect.to }}">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="{{ "/css/pixyll.css" | prepend: site.baseurl }}?{{ site.time | date: "%Y%m%d%H%M" }}" type="text/css">
+    {% css_asset_tag %}
+
+    <script>location="{{ page.redirect.to }}"</script>
+  </head>
+  <body>
+    <h1>Redirecting&hellip;</h1>
+    <a href="{{ page.redirect.to }}">Click here if you are not redirected.</a>
+  </body>
+</html>

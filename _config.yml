@@ -8,6 +8,7 @@ baseurl: ""
 url: "http://nynim.org"
 date_format: "%b %-d, %Y"
 header_pages:
+ - blog/index.html
  - about.md
  - contact.html
 
@@ -69,6 +70,7 @@ kramdown:
   smart_quotes: ["apos", "apos", "quot", "quot"]  # Disable smart-quotes
 permalink: /blog/:year/:month/:day/:title/  # Octopress 2-style permalink
 paginate: 10
+paginate_path: "/blog/page:num"
 sass:
   style: compressed
 exclude:
