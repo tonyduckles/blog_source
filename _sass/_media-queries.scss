@@ -1,6 +1,6 @@
 @media screen and (min-width: $viewport-small) {
   html {
-    font-size: 16px;
+    font-size: $base-font-size;
   }
 
   h1,
@@ -32,7 +32,7 @@
 
   blockquote {
     margin-left: $space-3;
-    padding: $space-3;
+    padding: $space-2a $space-3 $space-1;
   }
 
   .social-icons-left {
@@ -46,13 +46,13 @@
 
 @media screen and (min-width: $viewport-medium) {
   html {
-    font-size: 18px;
+    font-size: $base-font-size * 16/14;
   }
 }
 
 @media screen and (min-width: $viewport-large) {
   html {
-    font-size: 20px;
+    font-size: $base-font-size * 18/14;
   }
 }
 
