@@ -1,0 +1,19 @@
+{% capture category %}{{ post.categories | size }}{% endcapture %}
+<h1 class="entry-title">
+  {% if linklog %}<span class="linklog-marker">{{ site.linkblog.linkpost.marker }}</span>{% endif %}
+  <a class="post-link" href="{{ title_url }}">{{ article_title }}</a>
+</h1>
+<time datetime="{{ post.date | datetime | date_to_xmlschema }}" pubdate>{{ post.date | date: "<span class='month'>%b</span> <span class='day'>%d</span> <span class='year'>%Y</span>"}}</time>
+<div class="footer">
+  {% if linklog %}
+  <a class="permalink" rel="bookmark" href="{{ permalink }}">{{ site.linkblog.permalink_label }} Permalink</a>
+  {% endif %}
+  {% if category != '0' %}
+  {% if linklog %} &bull; {% endif %}
+  <span class="categories">posted in
+    {% for category in post.categories %}
+    <a href="{{ site.baseurl }}/{{ site.category_dir }}/{{ category | slugify }}/">{{ category }}</a>{% unless forloop.last %}, {% endunless %}
+    {% endfor %}
+  </span>
+  {% endif %}
+</div>

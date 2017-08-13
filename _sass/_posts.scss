@@ -93,3 +93,114 @@
 .related-post-title {
   border-bottom: thin solid #f3f3f3;
 }
+
+$img-border: url('/images/dotted-border.png') !default;
+$text-color-light: #aaa !default;
+#blog-archives {
+  color: $text-color-light;
+  article {
+    line-height: 1.7em;
+    padding: 1em 0 1em;
+    position: relative;
+    background: $img-border bottom left repeat-x;
+    &:last-child {
+      background: none;
+    }
+    h1 {
+      margin-top: 0;
+      a {
+        color: #333;
+        background-image: none;
+      }
+      a:hover {
+        color: $link-color;
+        @include transition(color 0.2s ease-in-out);
+        //opacity: 0.88;
+        background-image: linear-gradient(to top,
+          rgba(0,0,0,0) 13%,
+          rgba($link-color,.8) 13%,
+          rgba($link-color,.8) 18%,
+          rgba(0,0,0,0) 17%
+        );
+      }
+    }
+    .footer {
+      padding: 0; margin: 0;
+      font-size: .85em;
+      line-height: 1em;
+    }
+  }
+  h2 {
+    display: none;
+    margin-top: 0;
+  }
+  .entry-title {
+    margin-bottom: .3em;
+    font-size: $h2;
+  }
+  article[data-linklog] .entry-title {
+    font-size: $h3;
+    a {
+      color: #333;
+      background-image: linear-gradient(to top,
+        rgba(0,0,0,0) 13%,
+        rgba($dark-gray,.8) 13%,
+        rgba($dark-gray,.8) 18%,
+        rgba(0,0,0,0) 17%
+      );
+    }
+    a:hover {
+      color: $link-color;
+      @include transition(color 0.2s ease-in-out);
+      background-image: linear-gradient(to top,
+        rgba(0,0,0,0) 13%,
+        rgba($link-color,.8) 13%,
+        rgba($link-color,.8) 18%,
+        rgba(0,0,0,0) 17%
+      );
+    }
+  }
+  a.category, time {
+    color: $text-color-light;
+  }
+  .entry-content { display: none; }
+  time {
+    //font-size: $base-font-size * 13/14;
+    //line-height: 1.2em;
+    .month, .day { display: inline-block; }
+    .month { text-transform: uppercase; }
+  }
+  p { margin-bottom: 1em; }
+
+  @media only screen and (min-width: 550px) {
+    article {
+      padding: { left: 5em; bottom: .7em;}
+      margin-left: 5.5em;
+    }
+    h2 {
+      background: $img-border top left repeat-x;
+      padding-top: .8em;
+      font-size: 1.8rem;
+
+      margin-bottom: .3em;
+      font-weight: normal;
+      //font-weight: 900;
+      display: inline-block;
+      position: relative;
+      top: -1px;
+      float: left;
+      &:first-child {
+        //padding-top: .75em;
+        background: none;
+      }
+    }
+    time {
+      position: absolute;
+      text-align: right;
+      left: 0em;
+      top: 1.8em;
+    }
+    .year { display: none; }
+    a.category { line-height: 1.1em; }
+  }
+}

@@ -1,0 +1,13 @@
+---
+layout: page
+title: Categories
+permalink: /blog/categories/
+---
+
+<ul>
+{% assign category_list = site.categories | sort %}
+{% for category in category_list %}
+  <li><a href="{{ site.baseurl }}/{{ site.category_dir }}/{{ category[0] | slugify }}/">{{ category[0] }}</a> ({{ category[1].size }})</li>
+{% endfor %}
+</ul>
+
