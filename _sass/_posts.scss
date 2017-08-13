@@ -30,6 +30,16 @@
     color: #333;
     background-image: none;
   }
+  .post-link:hover {
+    color: $link-color;
+    @include transition(color 0.2s ease-in-out);
+    background-image: linear-gradient(to top,
+      rgba(0,0,0,0) 13%,
+      rgba($link-color,.8) 13%,
+      rgba($link-color,.8) 18%,
+      rgba(0,0,0,0) 17%
+    );
+  }
 }
 
 .posts article .post-excerpt-link {
@@ -39,13 +49,11 @@
   margin-top: 2em;
 
   a {
-    -webkit-transition: all 0.2s ease-in-out;
-    -moz-transition: all 0.2s ease-in-out;
-    transition: all 0.2s ease-in-out;
+    @include transition(all 0.2s ease-in-out);
     background: #fafafa;
     border-radius: 0.1875em;
     border: 1px solid #f3f3f3;
-    color: #333333;
+    color: #333;
     padding: 1em 1.5em;
   }
 
@@ -58,7 +66,6 @@
     background: #f7f7f7;
   }
 }
-
 
 .post-footer {
   @extend .italic;
