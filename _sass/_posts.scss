@@ -22,7 +22,7 @@
     font-size: .8em;
     line-height: 1em;
     position: relative;
-    top: -.15em;
+    top: -.2em;
   }
 
   .post-link {
@@ -122,6 +122,13 @@ $text-color-light: #aaa !default;
           rgba($link-color,.8) 18%,
           rgba(0,0,0,0) 17%
         );
+      }
+      .linklog-marker {
+        color: #aaa;
+        font-size: .8em;
+        line-height: 1em;
+        position: relative;
+        top: -.2em;
       }
     }
     .footer {
