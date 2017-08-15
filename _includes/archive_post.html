@@ -1,4 +1,4 @@
-{% capture category %}{{ post.categories | size }}{% endcapture %}
+{% capture category %}{% if post.collection != 'posts' %}1{% else %}{{ post.categories | size }}{% endif %}{% endcapture %}
 <h1 class="entry-title">
   {% if linklog %}<span class="linklog-marker">{{ site.linkblog.linkpost.marker }}</span>{% endif %}
   <a class="post-link" href="{{ title_url }}">{{ article_title }}</a>
@@ -10,10 +10,14 @@
   {% endif %}
   {% if category != '0' %}
   {% if linklog %} &bull; {% endif %}
-  <span class="categories">posted in
+  <span class="categories">posted in 
+    {% if post.collection != 'posts' %}
+    {{ post.collection | replace: "-", " " | titlecase }}
+    {% else %}
     {% for category in post.categories %}
-    {% unless post.collection %}<a href="{{ site.baseurl }}/{{ site.category_dir }}/{{ category | slugify }}/">{% endunless %}{{ category }}{% unless post.collection %}</a>{% endunless %}{% unless forloop.last %}, {% endunless %}
+    <a href="{{ site.baseurl }}/{{ site.category_dir }}/{{ category | slugify }}/">{{ category }}</a>{% unless forloop.last %}, {% endunless %}
     {% endfor %}
+    {% endif %}
   </span>
   {% endif %}
 </div>
