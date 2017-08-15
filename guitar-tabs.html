@@ -5,7 +5,7 @@ permalink: /guitar-tabs/
 ---
 
 <div id="blog-archives">
-{% for post in site.guitar-tabs %}
+{% for post in site.guitar-tabs reversed %}
 {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
 {% unless year == this_year %}
   {% assign year = this_year %}
