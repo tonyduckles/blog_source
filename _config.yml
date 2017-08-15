@@ -10,8 +10,15 @@ date_format: "%b %-d, %Y"
 header_pages:
  - blog/index.html
  - blog/archives.html
+ - code.md
+ - guitar-tabs.html
  - about.md
  - contact.html
+collections:
+  code:
+    output: true
+  guitar-tabs:
+    output: true
 
 # Optional features
 show_social_icons: true
@@ -81,3 +88,4 @@ exclude:
   - vendor
   - LICENSE.txt
   - docker-compose.yml
+  - bin/

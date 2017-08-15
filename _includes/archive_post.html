@@ -12,7 +12,7 @@
   {% if linklog %} &bull; {% endif %}
   <span class="categories">posted in
     {% for category in post.categories %}
-    <a href="{{ site.baseurl }}/{{ site.category_dir }}/{{ category | slugify }}/">{{ category }}</a>{% unless forloop.last %}, {% endunless %}
+    {% unless post.collection %}<a href="{{ site.baseurl }}/{{ site.category_dir }}/{{ category | slugify }}/">{% endunless %}{{ category }}{% unless post.collection %}</a>{% endunless %}{% unless forloop.last %}, {% endunless %}
     {% endfor %}
   </span>
   {% endif %}

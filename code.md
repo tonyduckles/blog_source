@@ -1,8 +1,7 @@
 ---
 layout: page
 title: Code
-footer: false
-body_id: page
+permalink: /code/
 ---
 
 Here are some of the open-source projects I've worked on...
