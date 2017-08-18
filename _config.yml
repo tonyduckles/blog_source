@@ -13,7 +13,6 @@ header_pages:
  - code.md
  - guitar-tabs.html
  - about.md
- - contact.html
 collections:
   code:
     output: true
