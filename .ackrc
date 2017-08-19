@@ -1,0 +1,4 @@
+--ignore-file=is:.jekyll-metadata
+--ignore-dir=is:_site
+--ignore-dir=is:.code-highlighter-cache
+--ignore-dir=is:.sass-cache
