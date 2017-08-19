@@ -3,7 +3,6 @@ source "https://rubygems.org"
 gem 'jekyll'
 
 group :jekyll_plugins do
-  gem 'jekyll-archives'
   gem 'jekyll-paginate'
   gem 'jekyll-redirect-from'
   gem 'jekyll-sitemap'
@@ -14,7 +13,6 @@ group :jekyll_plugins do
   gem 'octopress-image-tag'
   gem 'octopress-ink', git: 'https://github.com/iphoting/ink.git', branch: 'jekyll-3'  # Fix Jekyll 3 compatibility (gh:octopress/ink #65)
   gem 'octopress-linkblog',  git: 'https://github.com/andrewdavidbell/linkblog.git', branch: 'jekyll3'  # Fix Jekyll 3 compatibility (gh:octopress/linkblog #7)
-  gem 'octopress-paginate'
   gem 'octopress-quote-tag', git: 'https://github.com/NickTomlin/quote-tag.git', branch: 'master'  # Fix Jeykll 3 compatibility
   gem 'octopress-solarized'
 end
