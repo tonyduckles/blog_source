@@ -1,0 +1,4 @@
+#!/bin/sh
+# Helper to run a command in our 'jekyll' service docker-compose container
+SVC=jekyll
+docker-compose run --service-ports $SVC "$@"

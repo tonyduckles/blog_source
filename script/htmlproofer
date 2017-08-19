@@ -1,0 +1,8 @@
+#!/bin/sh
+SITE_DOMAIN=${SITE_DOMAIN:="nynim.org"}
+docker run --rm -v $(pwd):/site 18fgsa/html-proofer \
+    --allow-hash-href \
+    --assume-extension \
+    --disable-external \
+    --internal-domains=${SITE_DOMAIN} \
+    /site/_site
