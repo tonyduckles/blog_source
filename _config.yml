@@ -87,8 +87,8 @@ include:
 exclude:
   - Gemfile
   - Gemfile.lock
+  - script/
   - vendor/
   - LICENSE.txt
   - README.md
   - docker-compose.yml
-  - bin/
