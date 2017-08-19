@@ -7,7 +7,7 @@ external-url: http://www.feedly.com/happy.html
 categories:
 - Web
 ---
-{% img /images/2013/06/happy-retirement-gr.png %}
+{% img /images/2013/06/happy-retirement-gr.png "Happy Retirement Google Reader!" %}
 {% quote %}
 After 8 years on the job, Google Reader is retiring on July 1st. Thank you for being there for us all this time!
 {% endquote %}

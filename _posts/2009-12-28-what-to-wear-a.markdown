@@ -9,6 +9,6 @@ categories:
 - Video Games
 ---
 
-[{% img /images/2010/08/500x_marioscloset.jpg %}](http://kotaku.com/5430723/what-to-wear+a)
+[{% img /images/2010/08/500x_marioscloset.jpg "What-To-Wear-a?" %}](http://kotaku.com/5430723/what-to-wear+a)
 
 (*via [kotaku.com](http://kotaku.com/5430723/what-to-wear+a)*)

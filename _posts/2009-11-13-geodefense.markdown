@@ -8,7 +8,7 @@ categories:
 - Video Games
 ---
 
-[{% img /images/2010/08/geodefense_1250610916.jpg %}](http://www.appolicio us.com/games/apps/24846-geodefense-lite-critical-thought-games)
+[{% img /images/2010/08/geodefense_1250610916.jpg "GeoDefense" %}](http://www.appolicious.com/games/apps/24846-geodefense-lite-critical-thought-games)
 
 (*via [appolicious.com](http://www.appolicious.com/games/apps/24846-geodefense-lite-critical-thought-games)*)
 

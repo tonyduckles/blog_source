@@ -8,7 +8,7 @@ categories:
 - Humor
 ---
 
-[{% img /images/2010/08/autocompletemecom-howtoraise.jpg %}](http://autocompleteme.com/)
+[{% img /images/2010/08/autocompletemecom-howtoraise.jpg "Autocomplete Me" %}](http://autocompleteme.com/)
 
 (*via [autocompleteme.com](http://autocompleteme.com/)*)
 
