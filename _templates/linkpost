@@ -1,9 +1,7 @@
 ---
 layout: {{ layout }}
 title: "{{ title }}"
+external-url: "{{ url }}"
 date: {{ date }}
-comments: true
-description:
-keywords:
 categories:
 ---

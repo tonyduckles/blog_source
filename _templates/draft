@@ -1,4 +1,8 @@
 ---
 layout: {{ layout }}
 title: "{{ title }}"
+comments: true
+description:
+keywords:
+categories:
 ---
