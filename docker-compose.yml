@@ -1,11 +1,15 @@
-version: '2'
+version: '3'
 services:
   jekyll:
     image: jekyll/jekyll:latest
     command: jekyll serve --watch --incremental
+    environment:
+      BUNDLE_PATH: /srv/bundle
     ports:
       - 4000:4000
       - 4444:4444
     volumes:
       - .:/srv/jekyll
-    container_name: jekyll
+      - data-bundle-cache:/srv/bundle
+volumes:
+  data-bundle-cache:
