@@ -1,0 +1,5 @@
+#!/bin/sh
+# https://github.com/octopress/octopress
+# Example:
+# ./bin/octopress new post "Post title"
+bin/docker_run bundle exec octopress "$@"
