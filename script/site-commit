@@ -1,0 +1,4 @@
+#!/bin/sh
+cd _site && \
+  git add -A && \
+  git ci -m "Site updated at $(TZ=UTC date +"%Y-%m-%d %H:%M:%S UTC")"
