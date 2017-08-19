@@ -1,0 +1,25 @@
+# Access control
+Order allow,deny
+Allow from all
+
+# Deny access to .htaccess
+<Files .htaccess>
+  Order allow,deny
+  Deny from all
+</Files>
+
+# Deny access to .git* and .svn*
+RedirectMatch 404 /\\.svn(/.*|$)
+RedirectMatch 404 /\\.git(.*|/.*|$)
+
+# Prevent directory browsing
+Options -Indexes
+
+# Disable the server signature
+ServerSignature Off
+
+# Error pages
+ErrorDocument 400 /404.html
+ErrorDocument 401 /404.html
+ErrorDocument 403 /404.html
+ErrorDocument 404 /404.html
