@@ -70,8 +70,9 @@
 .post-footer {
   @extend .italic;
 
-  margin-top: .75rem;
-  text-align: center;
+  font-size: .9em;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
 }
 
 .post-footer .avatar {

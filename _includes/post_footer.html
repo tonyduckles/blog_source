@@ -1,10 +1,46 @@
-<div class="py2 post-footer">
-  <img src="{{ site.baseurl }}/images/me.jpeg" alt="John Otander" class="avatar" />
-  <p>
-    Pixyll is an open-source Jekyll theme that's built by <a href="http://johnotander.com">John Otander</a>.
-    When he's not writing code and building things, he likes to ski. A. Lot.
-  </p>
-  <p>
-    Follow him on <a href="https://twitter.com/4lpine">Twitter</a>.
-  </p>
+<div class="post-footer">
+{% if post.author %}
+  {% assign author = post.author %}
+{% elsif page.author %}
+  {% assign author = page.author %}
+{% else %}
+  {% assign author = site.author %}
+{% endif %}
+{% if author %}
+<span class="post-meta">
+  <span class="byline author vcard">Posted by <span class="fn">{{ author }}</span></span>
+</span>
+{% endif %}
+
+{% capture date %}{{ page.date }}{{ post.date }}{% endcapture %}
+{% capture date_formatted %}{{ page.date | date: site.date_format }}{{ post.date | date: site.date_format}}{% endcapture %}
+{% capture has_date %}{{ date | size }}{% endcapture %}
+{% capture updated %}{{ page.updated }}{{ post.updated }}{% endcapture %}
+{% capture updated_formatted %}{{ page.updated | date: site.date_format }}{{ post.updated | date: site.date_format }}{% endcapture %}
+{% capture was_updated %}{{ updated | size }}{% endcapture %}
+{% if has_date != '0' %}
+  {% capture time %}<time datetime="{{ date | datetime | date_to_xmlschema }}" pubdate{% if updated %} data-updated="true"{% endif %}>{{ date_formatted }}</time>{% endcapture %}
+{% endif %}
+{% if was_updated != '0' %}
+  {% capture updated %}<time datetime="{{ updated | datetime | date_to_xmlschema }}" class="updated">Updated {{ updated_formatted }}</time>{% endcapture %}
+{% else %}{% assign updated = false %}{% endif %}
+ &bull; <span class="post-meta">
+  {% if updated %}{{ updated }}{% else %}{{ time }}{% endif %}
+</span>
+
+{% capture category %}{% if post %}{{ post.categories | category_links | size }}{% else %}{{ page.categories | category_links | size }}{% endif %}{% endcapture %}
+{% unless category == '0' %}
+ &bull; <span class="post-meta">
+  Categories:
+  {% if post %}
+    {% for category in post.categories %}
+    <a href="{{ site.baseurl }}/{{ site.category_dir }}/{{ category | slugify }}/">{{ category }}</a>{% unless forloop.last %}, {% endunless %}
+    {% endfor %}
+  {% else %}
+    {% for category in page.categories %}
+    <a href="{{ site.baseurl }}/{{ site.category_dir }}/{{ category | slugify }}/">{{ category }}</a>{% unless forloop.last %}, {% endunless %}
+    {% endfor %}
+  {% endif %}
+</span>
+{% endunless %}
 </div>

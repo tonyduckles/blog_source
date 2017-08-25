@@ -13,6 +13,7 @@ header_pages:
  - code.md
  - guitar-tabs.html
  - about.md
+show_post_footers: true
 collections:
   code:
     output: true
