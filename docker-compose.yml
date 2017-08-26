@@ -2,7 +2,6 @@ version: '3'
 services:
   jekyll:
     image: jekyll/jekyll:latest
-    command: jekyll serve --watch --incremental
     environment:
       BUNDLE_PATH: /srv/bundle
     ports:
