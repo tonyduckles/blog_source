@@ -1,2 +1,4 @@
 #!/bin/sh
-docker-compose up
+rm -f .jekyll-metadata
+script/docker-run bash -c \
+    "jekyll serve --watch --incremental --drafts"
