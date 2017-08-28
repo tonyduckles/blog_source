@@ -26,7 +26,7 @@ the project-level.
 
 For example, here are the exclusions I want for my [Octopress](/blog/2011/12/19/hello-octopress/)
 build environment:
-```
+```plain linenos:false
 --ignore-dir=.gist-cache
 --ignore-dir=.pygments-cache
 --ignore-dir=.sass-cache

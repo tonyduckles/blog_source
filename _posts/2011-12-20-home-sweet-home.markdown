@@ -32,6 +32,7 @@ easy to commit those changes and push them to a central Git repository.
 
 Git also makes it dead-easy to "bootstrap" my dot-files environment into a
 brand-new home directory:
+
 {% codeblock Dotfiles bootstrap lang:sh %}
 # Clone the repo into ~/dotfiles/
 git clone git://github.com/tonyduckles/dotfiles.git dotfiles

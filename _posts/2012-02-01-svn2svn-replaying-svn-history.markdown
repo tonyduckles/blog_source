@@ -41,7 +41,11 @@ happily commit those changes to your branch. Once everything is working happily,
 you go to merge these changes into `/trunk` and that all works great. After the
 commit, if you run a `svn log -v -l1 /trunk` to look at the details of the most
 recent commit to trunk, you'll see something like this:
-    A /trunk/Project/RenamedFolder (from /branches/my-fix/Project/RenamedFolder@12345)
+
+```plain linenos:false
+A /trunk/Project/RenamedFolder (from /branches/my-fix/Project/RenamedFolder@12345)
+```
+
 ...which only describes the (top-level) folder rename, not any add/modifications/renames/etc
 that might have happened _inside_ that folder on the branch. At the full repo-level,
 SVN can get away with just doing a "`svn copy`" from the branch to trunk, so that

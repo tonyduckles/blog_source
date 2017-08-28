@@ -16,7 +16,7 @@ to setting up Google Apps for "nynim.org" (i.e. "...@nynim.org"). I had found
 the following article back then which gave me helpful hints on how to use
 `imapsync` to push data to my new Google Apps e-mail address:
 
-**[http://gemal.dk/blog/2008/04/08/completed_the_gmail_migration/](http://gemal.dk/blog/2008/04/08/completed_the_gmail_migration/)**
+[http://gemal.dk/blog/2008/04/08/completed_the_gmail_migration/](http://gemal.dk/blog/2008/04/08/completed_the_gmail_migration/)
 
 I adapted that script for my own needs, and I was able to successfully copy
 all the mail from my regular Gmail account to my new Google Apps account.
@@ -26,25 +26,25 @@ all the mail from my regular Gmail account to my new Google Apps account.
 Here is the final script I ended-up with:
 
 {% codeblock lang:sh %}
- #!/bin/sh
- # Copy all e-mail from source@gmail.com to target@yourdomain.com (Google Apps)
- imapsync \
-   --host1 imap.gmail.com --port1 993 --user1 source@gmail.com \
-   --passfile1 /path/to/gmail_mirror.passfile1 --ssl1 \
-   --host2 imap.gmail.com --port2 993 --user2 target@yourdomain.com \
-   --passfile2 /path/to/gmail_mirror.passfile2 --ssl2 \
-   --useheader 'Message-Id' --skipsize \
-   --syncinternaldates --noauthmd5 -nofoldersizes \
-   --split1 100 --split2 100 \
-   --maxage 50 \
-   --regexmess 's/Delivered-To: source\@gmail.com/Delivered-To: target\@yourdomain.com/g'
+#!/bin/sh
+# Copy all e-mail from source@gmail.com to target@yourdomain.com (Google Apps)
+imapsync \
+  --host1 imap.gmail.com --port1 993 --user1 source@gmail.com \
+  --passfile1 /path/to/gmail_mirror.passfile1 --ssl1 \
+  --host2 imap.gmail.com --port2 993 --user2 target@yourdomain.com \
+  --passfile2 /path/to/gmail_mirror.passfile2 --ssl2 \
+  --useheader 'Message-Id' --skipsize \
+  --syncinternaldates --noauthmd5 -nofoldersizes \
+  --split1 100 --split2 100 \
+  --maxage 50 \
+  --regexmess 's/Delivered-To: source\@gmail.com/Delivered-To: target\@yourdomain.com/g'
 {% endcodeblock %}
 
 The `--syncinternaldates`, `--useheader 'Message-Id'`,
 and `--skipsize` options are all recommended by the imapsync FAQ
 (search for "Gmail"):
 
-**[http://www.linux-france.org/prj/imapsync/FAQ](http://www.linux-france.org/prj/imapsync/FAQ)**
+[http://www.linux-france.org/prj/imapsync/FAQ](http://www.linux-france.org/prj/imapsync/FAQ)
 
 I opted to use the `--passfile1/passfile2` options rather than passing in a
 plain-text password in via a command-line param for two reasons: first because

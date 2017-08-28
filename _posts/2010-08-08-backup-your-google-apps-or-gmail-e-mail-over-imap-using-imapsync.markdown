@@ -33,17 +33,17 @@ using previously to
 Here's the script:
 
 {% codeblock lang:sh %}
- # Sync e-mail from "username@yourdomain.com" to localhost, using IMAP
- imapsync --host1 imap.gmail.com --user1 username@yourdomain.com
-          --passfile1 /path/to/gmail_mirror.passfile1 \
-          --host2 localhost --user2 username
-          --passfile2 /path/to/gmail_mirror.passfile2 \
-          --ssl1 \
-          --useheader 'Message-Id' --skipsize --allowsizemismatch \
-          --syncinternaldates --noauthmd5 -nofoldersizes\
-          --split1 100 --split2 100 \
-          --regextrans2 's/\[Gmail\]/username\@somedomain/' \
-          --include "All Mail|Sent Mail" --delete2 --expunge2
+# Sync e-mail from "username@yourdomain.com" to localhost, using IMAP
+imapsync --host1 imap.gmail.com --user1 username@yourdomain.com
+         --passfile1 /path/to/gmail_mirror.passfile1 \
+         --host2 localhost --user2 username
+         --passfile2 /path/to/gmail_mirror.passfile2 \
+         --ssl1 \
+         --useheader 'Message-Id' --skipsize --allowsizemismatch \
+         --syncinternaldates --noauthmd5 -nofoldersizes\
+         --split1 100 --split2 100 \
+         --regextrans2 's/\[Gmail\]/username\@somedomain/' \
+         --include "All Mail|Sent Mail" --delete2 --expunge2
 {% endcodeblock %}
 
 The `--regextrans2` option rewrites IMAP folder-names on-the-fly, so that my

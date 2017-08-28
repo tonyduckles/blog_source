@@ -21,5 +21,5 @@ get fanatical about some things, but I'm not sure if I'm too that point with
 Firefly yet. I certainly wish that the TV series hadn't been cancel mid-1st-
 season.
 
-**[http://www.donetheimpossible.com/](http://www.donetheimpossible.com/)**
+[http://www.donetheimpossible.com/](http://www.donetheimpossible.com/)
 
