@@ -1,3 +1,4 @@
 #!/bin/sh
-cd _site && \
-  git push deploy
+pushd "$(git rev-parse --show-toplevel)/_site"
+git push deploy
+popd
