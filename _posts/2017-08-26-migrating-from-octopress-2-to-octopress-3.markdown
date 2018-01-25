@@ -20,7 +20,7 @@ get everything working.
 
 ## Introduction to Octopress 3
 
-With [Octopress 2]((https://github.com/imathis/octopress)), the [paradigm I
+With [Octopress 2](https://github.com/imathis/octopress), the [paradigm I
 used]({% post_url 2011-12-19-hello-octopress %}) was to fork the canonical
 Octopress Git repository and maintain all my posts and theme files as a branch
 forked off of the Octopress "master" branch. I then periodically ran `git merge
