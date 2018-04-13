@@ -3,12 +3,9 @@ services:
   jekyll:
     image: jekyll/jekyll:latest
     environment:
-      BUNDLE_PATH: /srv/bundle
+      BUNDLE_PATH: /srv/jekyll/vendor/bundle
     ports:
       - 4000:4000
       - 4444:4444
     volumes:
       - .:/srv/jekyll
-      - data-bundle-cache:/srv/bundle
-volumes:
-  data-bundle-cache:
