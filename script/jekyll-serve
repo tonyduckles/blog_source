@@ -1,4 +1,5 @@
 #!/bin/sh
 rm -f .jekyll-metadata
 script/docker-run bash -c \
-    "jekyll serve --watch --incremental --drafts"
+    "bundle exec \
+     jekyll serve --watch --incremental --drafts"

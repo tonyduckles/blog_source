@@ -1,4 +1,6 @@
 #!/bin/sh
 rm -f .jekyll-metadata
 script/docker-run bash -c \
-    "JEKYLL_ENV=production jekyll build --trace"
+    "JEKYLL_ENV=production \
+     bundle exec \
+     jekyll build --trace"
