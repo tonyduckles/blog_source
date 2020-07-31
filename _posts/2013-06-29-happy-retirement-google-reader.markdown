@@ -8,9 +8,7 @@ categories:
 - Web
 ---
 {% img /images/2013/06/happy-retirement-gr.png "Happy Retirement Google Reader!" %}
-{% quote %}
-After 8 years on the job, Google Reader is retiring on July 1st. Thank you for being there for us all this time!
-{% endquote %}
+> After 8 years on the job, Google Reader is retiring on July 1st. Thank you for being there for us all this time!
 
 Thanks for being a great friend, Google Reader. And I'm happy to see that there
 will be plenty of worthy alternatives to fill your absence.

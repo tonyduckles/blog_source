@@ -43,29 +43,23 @@ found some interesting blog-posts via Twitter:
 Christian Heilmann wrote "[RIP Google Reader - I'd Have Paid For You](http://christianheilmann.com/2013/03/14/rip-google-reader-id-have-paid-for-you/)"
 where we talks about how the social web will never be a replacement for the
 one-stop aggregation service that Google Reader provides:
-{% quote %}
-Yes, RSS has been declared dead many times and people keep banging on about the social web and that Facebook, Twitter, Reddit and others have replaced the old style of blogging and having an own feed. But I don’t buy it, sorry. <b>Every social network is full of senseless chatter and organised advertising.</b> Social media experts and PR folk make sure that information about certain products and celebrities get read and retweeted. I don’t care about that. <b>I don’t want it. The same way I don’t watch public access channels or randomly surf channels but instead plan what I want to see on TV.</b> Random exploration and finding things by chance is fun, but it is not helping you to keep up to date – it is the ADHD of information consumption.
-{% endquote %}
+> Yes, RSS has been declared dead many times and people keep banging on about the social web and that Facebook, Twitter, Reddit and others have replaced the old style of blogging and having an own feed. But I don’t buy it, sorry. <b>Every social network is full of senseless chatter and organised advertising.</b> Social media experts and PR folk make sure that information about certain products and celebrities get read and retweeted. I don’t care about that. <b>I don’t want it. The same way I don’t watch public access channels or randomly surf channels but instead plan what I want to see on TV.</b> Random exploration and finding things by chance is fun, but it is not helping you to keep up to date – it is the ADHD of information consumption.
 
 ### Moving Towards a Walled-Off Web?
 Jonathan Poritsky wrote a fantastic blog-post titled "[Reader's End and Google Today](http://www.candlerblog.com/2013/03/15/google-and-reader/)",
 where he points out that this could be the start of a disturbing shift in
 Google's priorities:
-{% quote %}
-The biggest issue doesn’t seem to be the loss of Reader itself, but the recognition <b>that Google’s priorities have shifted</b>
-...
-
-But walls have sprouted up. Google can’t access the massive amounts of data people pour into Facebook and Twitter, so they built Google+ as their own social walled garden. Twitter is exerting control over how users experience their product, which shuts out competitors like Instagram (which is owned by Facebook), which can no longer display images inline in tweets. <b>The Web is getting smaller, not bigger, with each company working to become the umbrella under which you experience the Internet.</b> So Google has taken steps to make sure that the Web as users know it exists under their company banner, and Reader doesn’t fit in with that plan anymore.
-
-I was once a Google cheerleader. <b>Like many I believed their goal was to make a better Web for everyone</b>, with the one major tradeoff being that they would sell ads instead of charging users. That may once have been true but the Google of 2013 doesn’t want to build a better Web, it wants to build a better Google. I don’t think that goal is aligned with any of my own.
-{% endquote %}
+> The biggest issue doesn’t seem to be the loss of Reader itself, but the recognition <b>that Google’s priorities have shifted</b>
+> ...
+>
+> But walls have sprouted up. Google can’t access the massive amounts of data people pour into Facebook and Twitter, so they built Google+ as their own social walled garden. Twitter is exerting control over how users experience their product, which shuts out competitors like Instagram (which is owned by Facebook), which can no longer display images inline in tweets. <b>The Web is getting smaller, not bigger, with each company working to become the umbrella under which you experience the Internet.</b> So Google has taken steps to make sure that the Web as users know it exists under their company banner, and Reader doesn’t fit in with that plan anymore.
+>
+> I was once a Google cheerleader. <b>Like many I believed their goal was to make a better Web for everyone</b>, with the one major tradeoff being that they would sell ads instead of charging users. That may once have been true but the Google of 2013 doesn’t want to build a better Web, it wants to build a better Google. I don’t think that goal is aligned with any of my own.
 
 {% comment %}
 Jonathan calls-out Anil Dash's blog-post titled "[The Web We Lost](http://dashes.com/anil/2012/12/the-web-we-lost.html)"
 as a must-read article which I totally agree with. The times they are a-changin':
-{% quote %}
-The tech industry and its press have treated the rise of billion-scale social networks and ubiquitous smartphone apps as an unadulterated win for regular people, a triumph of usability and empowerment. They seldom talk about what we've lost along the way in this transition, and I find that younger folks may not even know how the web used to be.
-{% endquote %}
+> The tech industry and its press have treated the rise of billion-scale social networks and ubiquitous smartphone apps as an unadulterated win for regular people, a triumph of usability and empowerment. They seldom talk about what we've lost along the way in this transition, and I find that younger folks may not even know how the web used to be.
 {% endcomment %}
 
 With this move, Google is seeding a lot of ill-will in the tech community.

@@ -16,9 +16,7 @@ there.
 
 He's been able to put to clear words what I've been starting to realize lately:
 
-{% quote %}
-The bottom line is this: by focusing on happiness itself, you can lead a much better life than those who focus on convenience, luxury, and following the lead of the financially illiterate herd that is the TV-ad-absorbing Middle Class of the United States today (and most of the other rich countries).  Happiness comes from many sources, but none of these sources involve car or purse upgrades. No matter what the herd or the TV set tells you, this is the truth.
-{% endquote %}
+> The bottom line is this: by focusing on happiness itself, you can lead a much better life than those who focus on convenience, luxury, and following the lead of the financially illiterate herd that is the TV-ad-absorbing Middle Class of the United States today (and most of the other rich countries).  Happiness comes from many sources, but none of these sources involve car or purse upgrades. No matter what the herd or the TV set tells you, this is the truth.
 
 Living within your means and cutting-back on needless spending means lower
 monthly expenses. By cutting those recurring expenses, you're able to save

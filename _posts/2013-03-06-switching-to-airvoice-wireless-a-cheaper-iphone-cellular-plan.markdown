@@ -16,7 +16,7 @@ awaited the point where I was eligible for a phone-upgrade so that I could
 upgrade to the (*at that time*) brand-new iPhone 4.  I just always assumed that
 was the "*way it worked*": sign-up for a new two-year contract, get a
 subsidized price on a nice shiny-new piece of phone-hardware, and don't really
-think twice about the recurring $80+/month phone-bill.
+think twice about the recurring \$80+/month phone-bill.
 
 But I didn't realize there were other alternatives...
 
@@ -25,14 +25,12 @@ But I didn't realize there were other alternatives...
 ## Mobile Network Virtual Operators (MVNOs)
 While reading though the back-archives of one of my [new favorite finance blogs](/blog/2013/03/03/mr-money-mustache-from-zero-to-hero-in-one-blog-post/),
 I came across an interesting article, "[Our New $10.00 Per Month iPhone Plans](http://www.mrmoneymustache.com/2012/10/11/our-new-10-00-per-month-iphone-plans/)",
-talking about switching to a monthly pre-paid plan and paying only $10/month
+talking about switching to a monthly pre-paid plan and paying only \$10/month
 for an iPhone cellular plan.  I had heard mention of some of these "pre-paid"
 cellular vendors before but had never really looked into them much or really
 understand what they were:
 
-{% quote %}
-Many of these new options are called Mobile Network Virtual Operators (MNVOs), and they are in fact just re-selling access to the bigger carriers’ networks. So you get the same reception, coverage, and reliability as you had before.
-{% endquote %}
+> Many of these new options are called Mobile Network Virtual Operators (MNVOs), and they are in fact just re-selling access to the bigger carriers’ networks. So you get the same reception, coverage, and reliability as you had before.
 
 I had never realized! Same cellular network/service, you're just paying a
 different middle-man. And there's [quite a long list](http://en.wikipedia.org/wiki/List_of_United_States_mobile_virtual_network_operators)
@@ -65,8 +63,8 @@ had 450 anytime minutes (*though I only used on average ~100 minutes per month
 and had a huge rollover pool*) and my grandfathered-in Unlimited data plan from
 my original iPhone 3G based plan. I usually averaged around 200MB-300MB of data
 per month, so I wasn't really reaping much from my Unlimited data-plan.  The
-ultra-frugal $10/month plan would mean I'd *really* need to scrutinize my
-cellular data usage (*$0.33/MB adds up quick!*), as in *turning-off* cellular
+ultra-frugal \$10/month plan would mean I'd *really* need to scrutinize my
+cellular data usage (*\$0.33/MB adds up quick!*), as in *turning-off* cellular
 data most of the time and only turning it on when I absolutely needed. That was
 just a bit too extreme for me &mdash; too much penny-pinching.
 
@@ -119,18 +117,18 @@ been extremely painless.
 * **Need to remember to login every 30 days to renew your service.** This could
   admittedly be a bit of a drag, but it's easy to add a monthly reminder, and a
   few extra minutes worth of work per month seems well worth the savings of
-  $40/month x 12 months = ~$500/year.
+  \$40/month x 12 months = ~\$500/year.
 * **No fancy website.** AT&T had a pretty decent website with all kinds of
   historical usage statistics. I get none of that now. Airvoice is a smaller
   operation and I'm okay with that. If I want to get usage stats, I just need
   to do it myself using the usage-counters on my iPhone.
 
 Even if some months I do happen to go over my 500MB/month cap, I would simply
-drop another $40 in my account early and that would restart the 30 day
+drop another \$40 in my account early and that would restart the 30 day
 expiration over again.  As I understand it, a given prepayment expires either:
 after 30 days or after you've used up your quota, whichever comes first.
 
-If I find the $40/month plan is either too limiting or I'm consistently not
+If I find the \$40/month plan is either too limiting or I'm consistently not
 using everything I'm paying for, I can always easily switch to a different
 plan/tier. Based on the Airvoice Wireless [terms of service](http://www.airvoicewireless.com/TermsOfServiceAll.aspx),
 it sounds like they won't refund you a partial-month at all; you need to make a
@@ -138,7 +136,7 @@ cut at the end of your 30 day cycle (to make the most of your money) and you
 need to call customer-service to switch your account over to the new plan. I
 (obviously) haven't tried this yet but it sounds pretty painless.
 
-And by saving **$500/year** on my cell phone bill, that's basically the price
+And by saving **\$500/year** on my cell phone bill, that's basically the price
 of a brand-new (unlocked) flagship phone. So, I could *still* upgrade my
 hardware and still come-out ahead because I'm not tied into an expensive
 contract with one of the big cellular companies.

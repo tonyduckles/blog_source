@@ -10,9 +10,8 @@ categories:
 ---
 
 A few days ago I stumbled upon a neat project named **[Octopress](http://octopress.org/)**:
-{% quote Octopress https://github.com/imathis/octopress %}
-Octopress is an obsessively designed framework for Jekyll blogging. It’s easy to configure and easy to deploy. Sweet huh?
-{% endquote %}
+> Octopress is an obsessively designed framework for Jekyll blogging. It’s easy to configure and easy to deploy. Sweet huh?
+> -- <cite>[Octopress](https://github.com/imathis/octopress)</cite>
 
 Sweet indeed! The more I read about it, the more intrigued I became. After a
 few hours spent exploring the code, importing the posts/pages from my Wordpress
@@ -36,9 +35,8 @@ that I realized it had huge appeal to my geek-side too.
 ## Why Octopress?
 It was Matt Gemmell's "[Blogging With Octopress](http://mattgemmell.com/2011/09/12/blogging-with-octopress/)"
 post which resonated the most with me:
-{% quote Matt Gemmell %}
-WordPress is excellent, but it’s over-featured for what I need, and its PHP/MySQL guts are opaque. I don’t really like the idea of all my writing being inside a big database either; it’s a single point of failure, and that makes me uneasy.
-{% endquote %}
+> WordPress is excellent, but it’s over-featured for what I need, and its PHP/MySQL guts are opaque. I don’t really like the idea of all my writing being inside a big database either; it’s a single point of failure, and that makes me uneasy.
+> -- <cite>[Matt Gemmell](http://mattgemmell.com/2011/09/12/blogging-with-octopress/)</cite>
 
 For what I do with my website, Wordpress was overkill. It ended-up being
 _Yet-Another-Thing-I-Needed-To-Maintain-Security-Patches-On&trade;_.
