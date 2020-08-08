@@ -3,6 +3,8 @@ source "https://rubygems.org"
 gem 'jekyll'
 
 group :jekyll_plugins do
+  gem "kramdown"
+  gem "kramdown-parser-gfm", "~> 1.1"
   gem 'jekyll-paginate'
   gem 'jekyll-redirect-from'
   gem 'jekyll-sitemap'
@@ -15,3 +17,4 @@ group :jekyll_plugins do
   gem 'octopress-linkblog',  git: 'https://github.com/andrewdavidbell/linkblog.git', branch: 'jekyll3'  # Fix Jekyll 3 compatibility (gh:octopress/linkblog #7)
   gem 'octopress-solarized'
 end
+
