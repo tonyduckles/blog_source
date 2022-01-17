@@ -45,4 +45,4 @@ git clone git@github.com:tonyduckles/tonyduckles.github.io.git _site
    last published commit.
 3. `./script/site-commit` to `git commit` the site files in the `_site`
    subdirectory.
-4. `./script/site-push` to `git push` any new revisions to the `deploy` remote.
+4. `./script/site-deploy-push` to `git push` any new revisions to the `deploy` remote.

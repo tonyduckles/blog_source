@@ -2,7 +2,7 @@
 title: Nynim.org
 email: tony@nynim.org
 author: Tony Duckles
-description: >
+description: >-
   Tony Duckles on programming, photography, and general geekery
 baseurl: ""
 url: "http://nynim.org"
@@ -93,3 +93,4 @@ exclude:
   - LICENSE.txt
   - README.md
   - docker-compose.yml
+  - makefile
