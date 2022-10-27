@@ -1,7 +1,7 @@
 version: '3'
 services:
   jekyll:
-    image: jekyll/jekyll:4.0
+    image: jekyll/jekyll:4.0.1
     environment:
       BUNDLE_PATH: /srv/jekyll/vendor/bundle
     ports:
