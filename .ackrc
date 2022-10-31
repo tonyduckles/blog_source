@@ -2,3 +2,4 @@
 --ignore-dir=is:_site
 --ignore-dir=is:.code-highlighter-cache
 --ignore-dir=is:.sass-cache
+--ignore-dir=is:vendor
