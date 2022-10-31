@@ -1,5 +1,5 @@
 # Deploying
-site-build:
+site-build: gems-install
 	./script/jekyll-build
 
 site-diff:
