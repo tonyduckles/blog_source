@@ -1,5 +1,5 @@
 #!/bin/sh
 pushd "$(git rev-parse --show-toplevel)/_site"
 git add -A && \
-  git ci -m "Site updated at $(TZ=UTC date +"%Y-%m-%d %H:%M:%S UTC")"
+  git commit -m "Site updated at $(TZ=UTC date +"%Y-%m-%d %H:%M:%S UTC")"
 popd
