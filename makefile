@@ -1,6 +1,13 @@
 # Deploying
-site-build: gems-install
+site-build: site-init site-clean gems-install
 	./script/jekyll-build
+
+site-git-remote-url = git@github.com:tonyduckles/tonyduckles.github.io.git
+site-init:
+	test -d "_site" || git clone -o deploy $(site-git-remote-url) _site
+
+site-clean:
+	find _site -maxdepth 1 | grep -Ev "^_site$$|/.git" | xargs rm -rf
 
 site-diff:
 	cd _site && git diff
