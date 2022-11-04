@@ -83,8 +83,7 @@ category_dir: "blog/categories"
 sass:
   style: compressed
 include:
-  - .htaccess
-  - .nojekyll
+  - .nojekyll  # bypass jekyll on github pages
 exclude:
   - Gemfile
   - Gemfile.lock
