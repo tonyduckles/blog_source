@@ -1,8 +1,0 @@
-#!/bin/sh
-pushd "$(git rev-parse --show-toplevel)/_site"
-rsync -rlvc --delete -n \
-    --exclude=.git \
-    --exclude=.nojekyll \
-    . \
-    tony@vps-do.nynim.org:/data/www/nynim.org/
-popd

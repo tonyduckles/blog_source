@@ -17,7 +17,6 @@ site-commit:
 
 site-deploy:
 	./script/site-deploy-push
-	test -f script/site-deploy-rsync && ./script/site-deploy-rsync
 
 # Update Gemfile
 gems-install:
