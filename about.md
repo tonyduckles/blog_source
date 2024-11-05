@@ -11,7 +11,7 @@ I enjoy photography, traveling, cooking, and tinkering with new gadgets.
 
 This site is written in [HTML5](http://html5.org/), proudly powered by
 [Jekyll](https://jekyllrb.com/) and [Octopress 3](https://github.com/octopress/octopress),
-and hosted on [DigitalOcean](https://www.digitalocean.com/).
+and hosted on [RackNerd](https://www.racknerd.com/).
 
 ## Nynim.org
 
